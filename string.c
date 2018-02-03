@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-int my_strlen(char *s)
+int my_strlen(const char *s)
 {
-   char *p = s;
+   const char *p = s;
 
    while (*p)
       ++p;
